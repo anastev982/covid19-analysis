@@ -1,0 +1,21 @@
+# Ignore notebook checkpoints & caches
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+__pycache__/
+*.log
+
+# Ignore everything in outputs except selected files
+outputs/*
+!outputs/metadata.txt
+!outputs/peaks_summary.csv
+!outputs/vaccination_deaths_corr.csv
+!outputs/weekly_cases_deaths_pm.csv
+!outputs/plots/
+!outputs/plots/new_cases_pm_ma7_compare.png
+!outputs/plots/weekly_cases_pm.png
+!outputs/plots/cfr_lagged.png
+!outputs/plots/rtish_ratio.png
+
+# Optional: ignore raw data folders if ih ima
+data/
+raw/
