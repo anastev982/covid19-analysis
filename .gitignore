@@ -3,6 +3,9 @@
 **/.ipynb_checkpoints/
 __pycache__/
 *.log
+.env
+*.json
+.venv/
 
 # Ignore everything in outputs except selected files
 outputs/*
