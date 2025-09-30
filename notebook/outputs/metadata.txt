@@ -1,3 +1,0 @@
-Generated: 2025-09-27T19:21:58.439046Z
-Data source: https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv
-Countries: Serbia, Norway, Germany

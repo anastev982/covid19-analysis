@@ -6,6 +6,7 @@ __pycache__/
 .env
 *.json
 .venv/
+.vscode/
 
 # Ignore everything in outputs except selected files
 outputs/*
@@ -18,7 +19,14 @@ outputs/*
 !outputs/plots/weekly_cases_pm.png
 !outputs/plots/cfr_lagged.png
 !outputs/plots/rtish_ratio.png
+!outputs/plots/*.png
 
 # Optional: ignore raw data folders if ih ima
 data/
 raw/
+**/.ipynb_checkpoints/
+.virtual_documents/
+*.swp
+outputs/**
+!outputs/plots/
+!outputs/plots/*.png
