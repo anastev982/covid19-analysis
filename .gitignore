@@ -7,9 +7,11 @@ __pycache__/
 *.json
 .venv/
 .vscode/
+.virtual_documents/
+*.swp
 
 # Ignore everything in outputs except selected files
-outputs/*
+outputs/**
 !outputs/metadata.txt
 !outputs/peaks_summary.csv
 !outputs/vaccination_deaths_corr.csv
