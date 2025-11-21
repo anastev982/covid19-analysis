@@ -3,9 +3,9 @@ from google.cloud import bigquery
 from pathlib import Path
 from datetime import date
 
-# --- set your real project & location ---
+# Project & location
 PROJECT_ID = "charged-city-421819"
-LOCATION = "EU"  # your dataset / work is in EU
+LOCATION = "EU"  # dataset / work is in EU
 
 client = bigquery.Client(project=PROJECT_ID)
 
